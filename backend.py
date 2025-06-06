@@ -42,4 +42,4 @@ def chat_end(request : RequestState):
 #Step 3 Run App and explore swagger UI Docs
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app,host ="127.0.0.1" , port =9999)
+    uvicorn.run(app,host ="127.0.0.1" , port =$PORT)
